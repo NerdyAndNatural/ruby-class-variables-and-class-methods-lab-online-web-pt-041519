@@ -1,3 +1,4 @@
 class Song
-  def ninety_nine_problems
+  def ninety_nine_problems=(name)
+    
     
