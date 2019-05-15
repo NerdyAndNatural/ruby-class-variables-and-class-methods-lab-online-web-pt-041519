@@ -1,12 +1,12 @@
 class Song
   
-  @@count = 0
-  
-  def ninety_nine_problems=(name)
-    @name = name
+  @@count = 0 
+ 
+  def initialize
+    @@count += 1
   end
-  
- def ninety_nine_problems
-    @name
+ 
+  def self.count
+    @@count
   end
 end
