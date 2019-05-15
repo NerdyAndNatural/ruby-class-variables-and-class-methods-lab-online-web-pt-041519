@@ -1,3 +1,4 @@
+
 class Song
   
   @@artists_count = 0 
