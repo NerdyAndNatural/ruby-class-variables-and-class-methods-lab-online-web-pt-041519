@@ -1,1 +1,2 @@
-def Song 
+class Song
+  
