@@ -1,13 +1,13 @@
 
 class Song
-  
-  @@artists_count = 0 
  
-  def initialize
-    @@artists_count += 1
+  @@album_count = 0
+ 
+  def release_date=(date)
+    @release_date = date
   end
  
-  def self.count
-    @@artists_count
+  def release_date
+    @release_date
   end
 end
