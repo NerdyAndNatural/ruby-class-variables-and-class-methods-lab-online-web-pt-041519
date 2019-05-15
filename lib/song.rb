@@ -1,12 +1,12 @@
 class Song
   
-  @@count = 0 
+  @@artist_count = 0 
  
   def initialize
-    @@count += 1
+    @@artist_count += 1
   end
  
   def self.count
-    @@count
+    @@artist_count
   end
 end
