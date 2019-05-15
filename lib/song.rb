@@ -3,5 +3,7 @@ class Song
     @name = name
   end
   
-  def
+ def ninety_nine_problems=(name)
+    @name = name
+  end
     
